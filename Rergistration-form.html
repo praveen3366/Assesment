@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration-Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+   
+    <p style="text-align: center;">Please fill in this form for registration.</p>
+  <hr>
+  <table>   
+        <tr><td><label for="fullname"><b>Fullname</b></label></td>
+            <td> <i class="fa fa-user icon"></i></td>
+            <td><input type="text" placeholder="Enter name" name="fullname" id="fullname" required></td></tr>
+
+        <tr><td><label for="address line1"><b>Address line1</b></label></td>
+            <td>  <i class="fa fa-home icon"></i></td>
+            <td><input type="text" placeholder="Address line1" name="address line1" id="address line1" required></td></tr> 
+
+        <tr><td><label for="address line2"><b>Address line2</b></label></td>
+            <td> <i class="fa fa-home icon"></i></td>
+            <td><input type="text" placeholder="Address line2" name="address line2" id="address line1" required></td></tr> 
+
+        <tr><td><label for="city"><b>City</b></label></td>
+            <td> <i class="fa fa-home icon"></i></td>
+            <td><input type="text" placeholder="City" name="city" id="city" required></td></tr> 
+
+            <tr><td><label for="state/region/province"><b>State/Region/Province</b></label></td>
+           <td> <i class="fa fa-home icon"></i></td>
+            <td><input type="text" placeholder="State/Region/Province" name="state/region/province" id="state/region/province" required></td></tr> 
+
+            <tr><td><label for="postal code/zip"><b>Postal Code/ZIP</b></label></td>
+            <td> <i class="fa fa-home icon"></i></td>
+            <td><input type="text" placeholder="Postal Code/ZIP" name="postal code/zip" id="postal code/zip" required></td></tr> 
+
+            <tr><td><label for="country"><b>Country</b></label></td>
+            <td> <i class="fa fa-flag icon"></i></td>
+            <td> <select id="country" style="width:400px;height:43px;" >
+                <option value="">-- Please Select --</option>
+            <option value="IN">india</option> 
+                                <option value="54">ARGENTINA </option>
+                                <option value="A61">AUSTRALIA </option>
+                                <option value="43">AUSTRIA </option>
+                                <option value="973">BAHRAIN</option>
+                                <option value="880">BANGLADESH </option>
+                                <option value="1246">BARBADOS</option>
+                                <option value="375">BELARUS </option>
+                                <option value="32">BELGIUM </option>
+                                <option value="1441">BERMUDA </option>
+                                <option value="975">BHUTAN </option>
+                                <option value="267">BOTSWANA </option>
+                                <option value="55">BRAZIL </option>
+                                <option value="673">BRUNEI DARUSSALAM </option>
+                                <option value="359">BULGARIA </option>
+                                <option value="855">CAMBODIA </option>
+                                <option value="237">CAMEROON </option>
+                                <option value="A1">CANADA </option>
+                                <option value="238">CAPE VERDE</option>
+                                <option value="1345">CAYMAN ISLANDS </option>
+                                <option value="86">CHINA</option>
+                                <option value="53">CUBA </option>
+                                <option value="357">CYPRUS </option>
+                                <option value="420">CZECH REPUBLIC</option>
+                                <option value="45">DENMARK </option>
+                                <option value="20">EGYPT </option>
+                                <option value="503">EL SALVADOR </option>
+                                <option value="291">ERITREA</option>
+                                <option value="372">ESTONIA </option>
+                                <option value="251">ETHIOPIA </option>
+                                <option value="679">FIJI </option>
+                                <option value="358">FINLAND </option>
+                                <option value="33">FRANCE </option>
+                                <option value="995">GEORGIA</option>
+                                <option value="49">GERMANY </option>
+                                <option value="233">GHANA </option>
+                                <option value="30">GREECE </option>
+                                <option value="592">GUYANA </option>
+                                <option value="852">HONG KONG</option>
+                                <option value="36">HUNGARY </option>
+                                <option value="354">ICELAND</option>
+                                <option value="91">INDIA </option>
+                                <option value="62">INDONESIA </option>
+                                <option value="964">IRAQ </option>
+                                <option value="353">IRELAND</option>
+                                <option value="972">ISRAEL </option>
+                                <option value="39">ITALY </option>
+                                <option value="81">JAPAN </option>
+                                <option value="962">JORDAN </option>
+                                <option value="254">KENYA </option>
+                                <option value="965">KUWAIT </option>
+                                <option value="371">LATVIA </option>
+                                <option value="352">LUXEMBOURG </option>
+                                <option value="853">MACAO </option>
+                                <option value="265">MALAWI </option>
+                                <option value="60">MALAYSIA</option>
+                                <option value="960">MALDIVES </option>
+                                <option value="230">MAURITIUS</option>
+                                <option value="52">MEXICO </option>
+                                <option value="976">MONGOLIA </option>
+                                <option value="A212">MOROCCO </option>
+                                <option value="B264">NAMIBIA </option>
+                                <option value="674">NAURU </option>
+                                <option value="977">NEPAL </option>
+                                <option value="31">NETHERLANDS </option>
+                                <option value="A64">NEW ZEALAND </option>
+                                <option value="227">NIGER </option>
+                                <option value="234">NIGERIA </option>
+                                <option value="B47">NORWAY </option>
+                                <option value="968">OMAN </option>
+                                <option value="92">PAKISTAN </option>
+                                <option value="507">PANAMA </option>
+                                <option value="675">PAPUA NEW GUINEA </option>
+                                <option value="250">RWANDA </option>
+                                <option value="685">SAMOA </option>
+                                <option value="966">SAUDI ARABIA </option>
+                                <option value="221">SENEGAL </option>
+                                <option value="65">SINGAPORE </option>
+                                <option value="27">SOUTH AFRICA </option>
+                                <option value="34">SPAIN </option>
+                                <option value="94">SRI LANKA </option>
+                                <option value="B249">SUDAN </option>
+                                <option value="46">SWEDEN </option>
+                                <option value="41">SWITZERLAND </option>
+                                <option value="216">TUNISIA </option>
+                                <option value="90">TURKEY </option>
+                                <option value="256">UGANDA </option>
+                                <option value="380">UKRAINE </option>
+                                <option value="44">UNITED KINGDOM </option>
+                                <option value="B1">UNITED STATES</option>
+                                <option value="598">URUGUAY </option>
+                                <option value="84">VIET NAM </option>
+                                <option value="967">YEMEN </option>
+                                <option value="260">ZAMBIA </option></td></tr>
+        </select>
+
+            <tr><td><label for="email"><b>Email</b></label></td>
+           <td> <i class="fa fa-envelope icon"></i></td>
+            <td><input type="text" placeholder="Email" name="email" id="email" required></td></tr> 
+
+            <tr><td><label for="phone number"><b>Phone Number</b></label></td>
+            <td> <i class="fa fa-phone icon"></i></td>
+            <td><input type="text" placeholder="Phone Number" name="phone number" id="phone number" required></td></tr> 
+
+         
+</table>
+    <button type="button" class="Submitbtn" style="width: 30%;margin-left:35%;">submit</button>
+
+
+  
+</div>
+  
+  
+</form>
+
+</body>
+</html>
