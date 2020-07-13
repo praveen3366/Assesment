@@ -1,0 +1,129 @@
+ {
+      box-sizing: border-box;
+    }
+    
+    .button {
+        border: none;
+        float:right;
+        color: black;
+        padding-left: 0px 10px 10px 30px;
+        display: inline-block;
+        font-size: 10px;
+        margin: 2px;
+        cursor: pointer;
+        top:20px;
+        background-color:none;
+      }
+
+      .button1 {
+        border: none;
+        float:right;
+        color: black;
+        padding-left: 0px 10px 10px 30px;
+        display: inline-block;
+        font-size: 10px;
+        margin: 2px;
+        cursor: pointer;
+        top:20px;
+        background-color:none;
+      }
+
+      .button2 {
+        border: none;
+        float:right;
+        color: black;
+        padding-left: 0px 10px 10px 30px;
+        display: inline-block;
+        font-size: 10px;
+        margin: 2px;
+        cursor: pointer;
+        top:20px;
+        background-color: rgb(20, 96, 238);
+      }
+
+
+    
+    hr {
+        border: 0.5px solid #9e9494;
+        margin-bottom: 25px;
+        width:620px;
+      }
+      .signupbtn {
+       background-color: darkgreen;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      .signupbtn:hover {
+        opacity: 1;
+      }
+      .launchbtnbtn {
+        
+       
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      .launchbtn:hover {
+        opacity: 1;
+      }
+
+      
+.container {
+        background-color:  #e6e6e6;
+       width: 50%;
+        margin: 300px;
+        height: 850px;
+    
+        
+         
+       }
+      
+      
+
+    header {
+      background-color: #ccccff;
+      padding: 20px;
+      text-align: center;
+      width: 584px;
+      margin: 0px;
+      font-size: 30px;
+      color: black;
+       
+     }
+    
+    
+    
+    
+   
+    nav {
+      
+      float: left;
+      width: 280px;
+      height: 350px; 
+      margin: 20px;
+    
+      padding-top: -10px;
+    }
+       
+   
+       
+    article {
+      float: left;
+      width: 31%;
+      margin-left: 40px;
+      margin-top:20px;
+      height: 350px;
+    }
+    
+    
+     }
+ 

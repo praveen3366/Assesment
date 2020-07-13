@@ -1,0 +1,183 @@
+.container {
+    position: absolute;
+    padding: 50px;
+    top:-100px;
+    background-color: #f0e4e4;
+    border:2px solid;
+    width:750px;
+    margin-left:250px;
+    height:750px;
+    border:none;
+  }
+
+   .button {
+       top:40px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    margin: -50px;
+    cursor: pointer;
+    background-color:#be4b4b;
+  }
+
+  .button1 {
+    border: none;
+    color: black;
+    font-size: 10px;
+    margin: 60px;
+    cursor: pointer;
+    background-color:#4791d6;
+  }
+  .button2 {
+      position: relative;
+      float:right;
+    border: none;
+    top:-80px;
+    left:25px;
+    color: white;
+    font-size: 15px;
+    margin: 60px;
+    cursor: pointer;
+    background-color:#0eb646;
+  }
+  
+  .div1{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:130px;
+    left:0px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div2{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:260px;
+    left:0px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
+
+  .div3{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:130px;
+    left:300px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div4{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:260px;
+    left:300px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
+
+  .div5{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:130px;
+    left:600px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div6{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:260px;
+    left:600px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
+  .div7{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:450px;
+    left:600px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div8{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:650px;
+    left:600px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
+  .div9{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:450px;
+    left:300px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div10{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:650px;
+    left:300px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
+  .div11{
+    position: absolute;
+    background-color:rgb(8, 8, 8);
+      top:450px;
+    left:0px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size:30px;
+  }
+  .div12{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:650px;
+    left:0px;
+    height:175px;
+    width:250px;
+    border:0.5px solid;
+      
+  }
